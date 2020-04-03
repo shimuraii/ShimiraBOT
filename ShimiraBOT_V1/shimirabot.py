@@ -1,6 +1,6 @@
 import discord
 import asyncio
-# id = 305065527301242880 (Macdonalds' ID)
+# id = ################### (Macdonalds' ID)
 # mongodb for database
 messages= joined = 0
 client = discord.Client()
@@ -61,4 +61,4 @@ async def on_message(message):
     else:
         print(f""""Filha da puta: {message.author} tried to do {message.content}, in channel {message.channel}""")
 client.loop.create_task(update_stats())
-client.run("Njk0NzQ0ODg3NjcyNzAwOTg4.XoQGGg.skf3QY5mLQ6Y12dgz2xcagW-8mA")
+client.run("id")
