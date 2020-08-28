@@ -17,7 +17,9 @@ client = discord.Client()
 #         except Exception as e:
 #             print(e)
 #             await asyncio.sleep(1000)
-
+#aaaaaaa
+abc = 0
+print(str(abc))
 @client.event
 async def on_member_update(before, after):
     n = after.nick
